@@ -33,7 +33,7 @@
 
 body {
   background-color: #121215;
-  color: #eaeaea;
+  color: white;
   font-family: "Roboto", sans-serif;
   display: grid;
   grid-template-areas: "profile timeline";
@@ -42,6 +42,9 @@ body {
 }
 
 nav {
+  background: #00a99d; background: -moz-linear-gradient(to right,  #00a99d 0%,#93278f 100%); 
+  background: -webkit-linear-gradient(to right,  #00a99d 0%,#93278f 100%); 
+  background: linear-gradient(to right,  #00a99d 0%,#93278f 100%);
   padding: 64px;
   grid-area: timeline;
   overflow-y: scroll;
@@ -56,13 +59,14 @@ nav {
 }
 
 .memory small {
-  color: #bebebf;
+  color: white;
   font-size: 0.75rem;
+  font-weight: bold;
 }
 
 .memory h1 {
   font-size: 2rem;
-  color: #eaeaea;
+  color: white;
 }
 .memory img {
   width: 100%;
@@ -86,12 +90,19 @@ nav {
 
 .memory p1 {
   font-size: 1.2rem;
-  color: #bebebf;
+  font-weight: bold;
+  color: white;
   line-height: 28px;
 }
 .memory p2 {
-  font-size: 1.2rem;
-  color: #bebebf;
+  font-size: 1.1rem;
+  color: white;
+  line-height: 28px;
+}
+.memory p3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: purple;
   line-height: 28px;
 }
 
